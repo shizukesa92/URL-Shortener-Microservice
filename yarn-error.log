@@ -1,0 +1,103 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
+
+PATH: 
+  C:\tools\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\tools\cmder\vendor\conemu-maximus5;C:\tools\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files\Python36\Scripts\;C:\Program Files\Python36\;C:\Users\Owner\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Owner\AppData\Local\Programs\Python\Python36\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\PROGRAM FILES (X86)\AMD APP\BIN\X86_64;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\WINDOWS\SYSTEM32;C:\WINDOWS;C:\WINDOWS\SYSTEM32\WBEM;C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\ATI TECHNOLOGIES\ATI.ACE\CORE-STATIC;C:\PROGRAM FILES (X86)\WINDOWS LIVE\SHARED;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Skype\Phone\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Gow\bin;C:\Program Files (x86)\vim\vim80;C:\ProgramData\chocolatey\lib\curl\tools\curl_x64;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin\;C:\Program Files (x86)\Yarn\bin;C:\Program Files\MongoDB\Server\3.6\bin;C:\Users\Owner\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\Owner\AppData\Local\Programs\Python\Python35\;C:\Users\Owner\AppData\Local\Microsoft\WindowsApps\;C:\tools\cmder\;C:\Users\Owner\AppData\Local\GitHubDesktop\bin\;C:\Program Files\CMake\bin\;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\;C:\Users\Owner\AppData\Roaming\npm\;C:\Program Files\MongoDB\Server\3.6\bin\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Heroku\bin;C:\Program Files\Git\bin;C:\Program Files\Git\usr\bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.7.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "URL-Shortener-Microservice",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/shizukesa92/URL-Shortener-Microservice.git",
+    "author": "Leonard Tye <leonardtye1992@gmail.com>",
+    "license": "MIT",
+    "version": "1.0.0",
+      "engines": {
+      "node": "9.7.1",
+  	"npm": "5.8.0",
+  	"yarn": "1.5.1"
+    },
+    "scripts": {
+  	"start": "node app.js",
+  	"dev": "webpack-dev-server --mode development --open",
+      "build": "webpack --mode production",
+  	  "postinstall": "webpack -p --config ./webpack.config.js --progress"
+    },
+    "dependencies": {
+      "autoprefixer": "^8.2.0",
+      "babel-core": "^6.26.0",
+      "babel-loader": "^7.1.4",
+      "babel-preset-env": "^1.6.1",
+      "babel-preset-react": "^6.24.1",
+      "babel-preset-stage-0": "^6.24.1",
+      "bootstrap": "^4.0.0",
+      "css-loader": "^0.28.11",
+      "express": "^4.16.3",
+      "html-webpack-plugin": "^3.1.0",
+      "jquery": "^3.3.1",
+      "mini-css-extract-plugin": "^0.4.0",
+      "moment": "^2.22.0",
+      "node": "^9.10.1",
+      "node-sass": "^4.8.3",
+      "postcss-loader": "^2.1.3",
+      "postcss-scss": "^1.0.5",
+      "precss": "^3.1.2",
+      "pug": "^2.0.3",
+      "react": "^16.3.0",
+      "react-dom": "^16.3.0",
+      "react-redux": "^5.0.7",
+      "redux": "^3.7.2",
+      "redux-batched-actions": "^0.2.1",
+      "redux-thunk": "^2.2.0",
+      "sass-loader": "^6.0.7",
+      "style-loader": "^0.20.3",
+      "webpack": "^4.4.1",
+      "webpack-cli": "^2.0.13",
+      "webpack-dev-server": "^3.1.1",
+  	    "babel-eslint": "^8.2.2",
+      "eslint": "^4.19.1",
+      "eslint-config-airbnb": "^16.1.0",
+      "eslint-loader": "^2.0.0",
+      "eslint-plugin-babel": "^5.0.0",
+      "eslint-plugin-html": "^4.0.2",
+      "eslint-plugin-import": "^2.10.0",
+      "eslint-plugin-jsx-a11y": "^6.0.3",
+      "eslint-plugin-react": "^7.7.0",
+      "eslint-plugin-react-redux": "^2.3.0",
+      "html-loader": "^0.5.5"
+    },
+    "devDependencies": {
+  
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 1
+  Command: C:\WINDOWS\system32\cmd.exe
+  Arguments: /d /s /c node app.js
+  Directory: D:\Dropbox\Repositories\URL-Shortener-Microservice
+  Output:
+  
+      at ProcessTermError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at new ProcessTermError (C:\Program Files (x86)\Yarn\lib\cli.js:226:113)
+      at ChildProcess.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:30281:17)
+      at ChildProcess.emit (events.js:127:13)
+      at maybeClose (internal/child_process.js:936:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
