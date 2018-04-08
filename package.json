@@ -1,0 +1,8 @@
+{
+  "name": "URL-Shortener-Microservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/shizukesa92/URL-Shortener-Microservice.git",
+  "author": "Leonard Tye <leonardtye1992@gmail.com>",
+  "license": "MIT"
+}
