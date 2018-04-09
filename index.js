@@ -3,7 +3,9 @@ const app = express();
 const path = require("path");
 const api = require("./server/routes/api");
 
+app.use("/api", api);
 app.use("/api/shorturl", api);
+
 app.use(express.static("./dist/client"));
 app.get("/", (req, res) => {
 	res.sendFile(path.join(__dirname + "./dist/client/index.html"));
