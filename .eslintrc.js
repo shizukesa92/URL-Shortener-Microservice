@@ -13,20 +13,12 @@ module.exports = {
 		"html"
     ],
     "rules": {
-	    "max-len": [1, 120, 2, {ignoreComments: true}],
-    "prop-types": [2],
-        "strict": 0,
-        "quotes": 0,
-        "no-unused-vars": 0,
-        "camelcase": 0,
-        "no-underscore-dangle": 0,
-		"babel/new-cap": 1,
-    "babel/object-curly-spacing": 1,
-    "babel/no-invalid-this": 1,
-    "babel/semi": 1,
-	        "react-redux/connect-prefer-named-arguments": 2,
-			"import/named": 2,
-			"no-tabs": 0
+			"no-tabs": 0,
+			"linebreak-style": 0,
+			"indent": 0,
+			"quotes": [0, "double"],
+			"no-plusplus": 0,
+			"padded-blocks": 0
     },
 	"extends": [
 	        "plugin:react-redux/recommended",
