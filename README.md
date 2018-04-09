@@ -1,4 +1,4 @@
-# FreeCodeCamp API Project 3: https://thread-paper.glitch.me/
+# FreeCodeCamp API Project 3: URL Shortener Microservice
 
 ## [Instructions on FreeCodeCamp Beta](https://beta.freecodecamp.org/en/challenges/api-and-microservice-projects/url-shortener-microservice)
 
