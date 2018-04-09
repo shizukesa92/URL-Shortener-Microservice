@@ -1,4 +1,6 @@
 const mongo = require("mongodb");
+const express = require("express");
+const app = express();
 const shortid = require("shortid");
 const validUrl = require("valid-url");
 const dotenv = require("dotenv");
@@ -6,7 +8,8 @@ dotenv.config({
 	path: "./.env"
 });
 const uri = process.env.MONGOLAB_URI;
-console.log(uri)
+
+
 module.exports = {
 	generate: (req, res) => {
 		mongo.MongoClient.connect(uri, (err, db) => {
@@ -17,9 +20,8 @@ module.exports = {
 				console.log("Connected to server");
 				let database = db.db("url-shortener-microservice");
 				let collection = database.collection("urls");
-				let url = req.params.url;
+				let url = req.body.url;
 				let host = req.get("host") + "/api/shorturl/";
-
 				//function to generate short link 
 				let generateLink = function(db, callback) {
 					if (validUrl.isUri(url)) {
